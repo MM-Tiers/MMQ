@@ -20,6 +20,12 @@ const modes = {
     cart: { name: "Cart", role: "1480557543150583839", channel: "1480559259321110661", category: "1480556527503806545" },
     uhc: { name: "UHC", role: "1480557580328894474", channel: "1480559276375277669", category: "1480556555589124228" },
     crystal: { name: "Crystal", role: "1480557626168316186", channel: "1480559316330086521", category: "1480556601143328768" },
+    ironpot : { name: "IronPot", role: "1491838390939816017", channel: "1491837108854325308", category: "1491836544737345566" },
+    doorpvp: { name: "DoorPvP", role: "1491838431792336896", channel: "1491836916817985667", category: "1491836650085683351" },
+    speed: { name: "Speed", role: "1491838429627941004", channel: "1491836591042199684", category: "1491836891522400427" },
+    ogv: { name: "OGV", role: "1491838329178554480", channel: "1491836940130062520", category: "1491836695077716168" },
+    shieldlessuhc: { name: "Shieldless-UHC", role: "1491838425127583834", channel: "1491836960510185502", category: "1491836784714186772" },
+    trident: { name: "Trident", role: "1491838371440361472", channel: "1491836821095579869", category: "1491836491087741089" },
     axe: { name: "Axe", role: "1480557672515502243", channel: "1480559334659326032", category: "1480556630792863905" }
 };
 
@@ -243,7 +249,7 @@ setInterval(async () => {
                 );
 
                 // Only ping/show text when the tester is actually active
-                messageContent = `@everyone **${mode.name} testing is LIVE!**`;
+                messageContent = `@everyone **${mode.name} testing is Active!**`;
             }
 
             const payload = { 
